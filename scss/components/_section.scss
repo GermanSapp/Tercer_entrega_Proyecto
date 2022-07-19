@@ -1,0 +1,6 @@
+@import '../base/extends';
+
+.cabecera-nosotros{
+    @extend  %cabeceras;
+}
+

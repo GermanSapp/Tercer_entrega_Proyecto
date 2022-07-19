@@ -1,0 +1,28 @@
+@import '../base/variables';
+@import'../base/listas';
+
+main{
+    section{
+        margin: 3rem;
+        /*container*/ div{
+            /*row*/ div{
+                /*col*/ div{
+                    img{
+                        
+                        border-radius: 10px;
+                        transition: all 1s;
+                        &:hover{
+                            transform: scale(1.1);
+                        }
+                    }
+                    h5{
+                        font-size: nth($font-h5,3);
+                    }
+                    p{
+                        font-size: nth($footer-font-p,3);
+                    }
+                }
+            }
+        }
+    }
+}

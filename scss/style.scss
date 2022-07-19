@@ -1,0 +1,28 @@
+@import'../scss/components/footer';
+@import'../scss/components/indexMain';
+@import'../scss/components/section';
+@import '../scss/base/variables';
+@import'../scss/base/listas';
+@import '../scss/base/mapas';
+@import '../scss/base/extends';
+
+
+
+/*estilos para la parte de boostrap*/
+
+.img-logo{
+    width: 100px; 
+    height: 100px;
+    padding: 10px 0;
+}
+
+.iconos-redes-nav{
+    width: 20px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    transition: all 0.5s;
+
+}
+.iconos-redes-nav:hover {
+    transform: scale(1.3); 
+}

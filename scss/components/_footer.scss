@@ -1,0 +1,39 @@
+@import '../base/variables';
+@import'../base/listas';
+@import '../base/mapas';
+@import '../base/mixins';
+
+footer{
+    background-color: map-get($footerOp1, bg-footer);
+    padding: $padd-footer;
+    text-align: $tx-alig-footer;
+    /*contenerdor marcas*/div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding-bottom: 10px;
+        /*marcas*/div{
+            img{
+                width: 100px;
+                height: 50px;
+            }
+        }
+
+    }
+}
+
+footer {
+    p{
+        color: nth($colores,6);
+        font-size: nth($footer-font-p,4);
+    }
+    a{
+         img{
+            width: 80px;
+            position: fixed;
+            bottom: 1rem;
+            right: 1rem; 
+         }
+     }
+}
